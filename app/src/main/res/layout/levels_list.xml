@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="87dp"
+        android:layout_height="72dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/numbOFlvl1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/star1_1"
+            android:layout_width="29dp"
+            android:layout_height="32dp"
+            android:layout_below="@+id/numbOFlvl1"
+            android:background="@drawable/star"
+            tools:ignore="ContentDescription"
+            android:layout_toStartOf="@id/star2_1"
+            />
+        <ImageView
+            android:id="@+id/star2_1"
+            android:layout_width="29dp"
+            android:layout_height="32dp"
+            android:layout_below="@+id/numbOFlvl1"
+            android:background="@drawable/star"
+            tools:ignore="ContentDescription"
+            android:layout_centerHorizontal="true"
+
+            />
+        <ImageView
+            android:id="@+id/star3_1"
+            android:layout_width="29dp"
+            android:layout_height="32dp"
+            android:layout_below="@+id/numbOFlvl1"
+            android:background="@drawable/star"
+            android:layout_toEndOf="@+id/star2_1"
+            tools:ignore="ContentDescription"
+
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="87dp"
+        android:layout_height="72dp"
+        app:layout_constraintEnd_toStartOf="@+id/relativeLayout3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/relativeLayout1"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/numbOFlvl2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+
+            />
+
+        <ImageView
+            android:id="@+id/star1_2"
+            android:layout_width="29dp"
+            android:layout_height="32dp"
+            android:layout_below="@+id/numbOFlvl2"
+            android:background="@drawable/star"
+            tools:ignore="ContentDescription"
+            android:layout_toStartOf="@id/star2_2"
+
+            />
+        <ImageView
+            android:id="@+id/star2_2"
+            android:layout_width="29dp"
+            android:layout_height="32dp"
+            android:layout_below="@+id/numbOFlvl2"
+            android:background="@drawable/star"
+            android:layout_centerHorizontal="true"
+            tools:ignore="ContentDescription"
+            />
+        <ImageView
+            android:id="@+id/star3_2"
+            android:layout_width="29dp"
+            android:layout_height="32dp"
+            android:layout_below="@+id/numbOFlvl2"
+            android:background="@drawable/star"
+            android:layout_toEndOf="@+id/star2_2"
+            tools:ignore="ContentDescription"
+
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="87dp"
+        android:layout_height="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_centerHorizontal="true"
+        >
+
+        <TextView
+            android:id="@+id/numbOFlvl3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/star1_3"
+            android:layout_width="29dp"
+            android:layout_height="32dp"
+            android:layout_below="@+id/numbOFlvl3"
+            android:background="@drawable/star"
+            tools:ignore="ContentDescription"
+            android:layout_toStartOf="@id/star2_3"
+
+            />
+        <ImageView
+            android:id="@+id/star2_3"
+            android:layout_width="29dp"
+            android:layout_height="32dp"
+            android:layout_below="@+id/numbOFlvl3"
+            android:background="@drawable/star"
+            android:layout_centerHorizontal="true"
+            tools:ignore="ContentDescription"
+            />
+        <ImageView
+            android:id="@+id/star3_3"
+            android:layout_width="29dp"
+            android:layout_height="32dp"
+            android:layout_below="@+id/numbOFlvl3"
+            android:background="@drawable/star"
+            android:layout_toEndOf="@+id/star2_3"
+            tools:ignore="ContentDescription"
+
+            />
+
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
